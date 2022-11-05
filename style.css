@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  margin-top: 100px;
+}
+
+.menu {
+  /* background-color: red; */
+  width: 50px;
+}
+
+.billDisplay {
+  /* background-color: blue; */
+  width: 50px;
+}
+
+.small {
+  width: 100px;
+  cursor: pointer;
+}
+
+.amount {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.billDisplay {
+  height: 40vh;
+  width: 20vw;
+  /* background-color: blueviolet; */
+  margin-left: 500px;
+}
+
+#returnBill {
+  font-size: 30px;
+  font-weight: bolder;
+}
